@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>DataProvider.h</itemPath>
+      <itemPath>UserService.h</itemPath>
+      <itemPath>user_constants.h</itemPath>
+      <itemPath>user_types.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>cpps.properties</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>DataProvider.cpp</itemPath>
+      <itemPath>UserService.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>user_constants.cpp</itemPath>
+      <itemPath>user_types.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>PocoCrypto</linkerLibLibItem>
+            <linkerLibLibItem>PocoCryptod</linkerLibLibItem>
+            <linkerLibLibItem>PocoData</linkerLibLibItem>
+            <linkerLibLibItem>PocoDataMySQL</linkerLibLibItem>
+            <linkerLibLibItem>PocoDataMySQLd</linkerLibLibItem>
+            <linkerLibLibItem>PocoDataODBC</linkerLibLibItem>
+            <linkerLibLibItem>PocoDataODBCd</linkerLibLibItem>
+            <linkerLibLibItem>PocoDataSQLite</linkerLibLibItem>
+            <linkerLibLibItem>PocoDataSQLited</linkerLibLibItem>
+            <linkerLibLibItem>PocoDatad</linkerLibLibItem>
+            <linkerLibLibItem>PocoFoundation</linkerLibLibItem>
+            <linkerLibLibItem>PocoFoundationd</linkerLibLibItem>
+            <linkerLibLibItem>PocoJSON</linkerLibLibItem>
+            <linkerLibLibItem>PocoJSONd</linkerLibLibItem>
+            <linkerLibLibItem>PocoMongoDB</linkerLibLibItem>
+            <linkerLibLibItem>PocoMongoDBd</linkerLibLibItem>
+            <linkerLibLibItem>PocoNet</linkerLibLibItem>
+            <linkerLibLibItem>PocoNetSSL</linkerLibLibItem>
+            <linkerLibLibItem>PocoNetSSLd</linkerLibLibItem>
+            <linkerLibLibItem>PocoNetd</linkerLibLibItem>
+            <linkerLibLibItem>PocoUtil</linkerLibLibItem>
+            <linkerLibLibItem>PocoUtild</linkerLibLibItem>
+            <linkerLibLibItem>PocoXML</linkerLibLibItem>
+            <linkerLibLibItem>PocoXMLd</linkerLibLibItem>
+            <linkerLibLibItem>PocoZip</linkerLibLibItem>
+            <linkerLibLibItem>PocoZipd</linkerLibLibItem>
+            <linkerOptionItem>`pkg-config --libs thrift`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs thrift-nb`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs libevent`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="DataProvider.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DataProvider.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UserService.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UserService.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cpps.properties" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="user_constants.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="user_constants.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="user_types.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="user_types.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="DataProvider.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DataProvider.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UserService.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UserService.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cpps.properties" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="user_constants.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="user_constants.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="user_types.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="user_types.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
