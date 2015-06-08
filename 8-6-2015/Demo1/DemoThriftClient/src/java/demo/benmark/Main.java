@@ -50,7 +50,8 @@ public class Main {
                     for (int j = 1; j <= 1000; j++) {
                         try {
                            User u = client.GetUser(Thread.currentThread().getName());
-                            System.out.println(Thread.currentThread().getName() + " : " + j + " __ username : " + u.getUsername());
+                            //client.UpdateVisitor(Thread.currentThread().getName());
+                            System.out.println(Thread.currentThread().getName() + " : " + j + " __ username : ");
                         } catch (TException ex) {
                             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                         }

@@ -1,0 +1,64 @@
+-Thời gian TB kể từ khi CLient gửi 1 request và nhận kết quả về từ Server(TNonblockingServer) trên C++ : 650 nano second.
+-BenMark Server  C++  , Client Java.
+//N = 10 ; số Thread;
+//n = 1000 ; số request của 1 Thread;
+CÓ sử dụng CSDL Quan hệ MYSQL or SQL.Ngôn ngữ C++.
+A.Function Get : Lấy User từ CSDL.
+	1.TSimpleServer :
+		+ run không cache : ~ 1200 request/s.
+		+ run có cache : ~ 6816 -> 7496 request/s.
+	2.TNonblockingServer : 
+		+ run không cache : ~ 1711 request/s.
+		+ run có cache : ~ 6385 -> 7418 request/s.
+	3.TThreadPoolServer : 
+		+ run không cache : ~ 1845 request/s.
+		+ run có cache : ~ 7680 -> 8396 request/s.
+B.Function PUT : Lấy User từ CSDL tăng visitor lên 1 và update xuống CSDL.
+	1.TSimpleServer :
+		 ~ 17 request/s.
+	2.TNonblockingServer : 
+		 ~ 35 request/s.
+	3.TThreadPoolServer : 
+		 ~ 30 request/s.
+
+
+=====================================================================
+-BenMark Server  Java . Client Java
+// CÓ sử dụng CSDL Quan hệ MYSQL.Ngôn ngữ Java.
+A.Function Get : Lấy User từ CSDL.
+	1.TSimpleServer :
+		+ run lần đầu : ~ 230 request/s.
+		+ run lần sau : ~ 279 request/s.
+	2.TNonblockingServer : 
+		+ run lần đầu : ~ 239 request/s.
+		+ run lần sau : ~ 286 request/s.
+	3.THsHaServer : 
+		+ run lần đầu : ~ 480 request/s.
+		+ run lần sau : ~ 668 request/s.
+	4.TThreadedSelectorServer : 
+		+ run lần đầu : ~ 489 request/s.
+		+ run lần sau : ~ 629 request/s.
+	5.TThreadPoolServer : 
+		+ run lần đầu : ~ 532 request/s.
+		+ run lần sau : ~ 713 request/s.
+
+B.Function PUT : Lấy User từ CSDL tăng visitor lên 1 và update xuống CSDL.
+	1.TSimpleServer :
+		+ run lần đầu : ~ 17 request/s.
+		+ run lần sau : ~ 17 request/s.
+	2.TNonblockingServer : 
+		+ run lần đầu : ~ 17 request/s.
+		+ run lần sau : ~ 17 request/s.
+	3.THsHaServer : 
+		+ run lần đầu : ~ 49 request/s.
+		+ run lần sau : ~ 49 request/s.
+	4.TThreadedSelectorServer : 
+		+ run lần đầu : ~ 50 request/s.
+		+ run lần sau : ~ 50 request/s.
+	5.TThreadPoolServer : 
+		+ run lần đầu : ~ 98 request/s.
+		+ run lần sau : ~ 98 request/s.
+
+File code benmark : DemoThriftClient/src/java/demo/benmark/Main.java		
+==================================================================
+
