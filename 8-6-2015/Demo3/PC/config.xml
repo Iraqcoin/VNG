@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<Application>
+  <logging>
+    <channels>
+      <cScreen>
+        <class>ColorConsoleChannel</class>
+        <formatter>
+          <class>PatternFormatter</class>
+          <pattern>%H:%M:%S : %T : [%p] : %t</pattern>
+        </formatter>
+        <traceColor>lightBlue</traceColor>
+        <debugColor>blue</debugColor>
+        <informationColor>white</informationColor>
+        <noticeColor>green</noticeColor>
+        <warningColor>yellow</warningColor>
+        <errorColor>red</errorColor>
+        <criticalColor>lightMagenta</criticalColor>
+        <fatalColor>lightMagenta</fatalColor>
+      </cScreen>
+      <cFile>
+        <class>FileChannel</class>
+        <path>application.log</path>
+        <rotation>1 M</rotation>
+        <archive>number</archive>
+        <purgeCount>5</purgeCount>
+        <formatter>
+          <class>PatternFormatter</class>
+          <pattern>%H:%M:%S : %T : [%p] : %t</pattern>
+        </formatter>
+      </cFile>
+    </channels>
+    <loggers>
+      <root>
+        <name></name>
+        <channel>cFile</channel>
+        <level>trace</level>
+      </root>
+      <main>
+        <name>main</name>
+        <channel>cScreen</channel>
+        <level>trace</level>
+      </main>
+    </loggers>
+  </logging>
+</Application>

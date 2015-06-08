@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Application.cpp</itemPath>
+      <itemPath>Cache.cpp</itemPath>
+      <itemPath>Conﬁguration.cpp</itemPath>
+      <itemPath>DateAndTime.cpp</itemPath>
+      <itemPath>Logging.cpp</itemPath>
+      <itemPath>LoggingConfig.cpp</itemPath>
+      <itemPath>Memory.cpp</itemPath>
+      <itemPath>Mysql.cpp</itemPath>
+      <itemPath>Notiﬁcation.cpp</itemPath>
+      <itemPath>Platform.cpp</itemPath>
+      <itemPath>Process.cpp</itemPath>
+      <itemPath>Random.cpp</itemPath>
+      <itemPath>Server.cpp</itemPath>
+      <itemPath>String.cpp</itemPath>
+      <itemPath>TestLibrary.cpp</itemPath>
+      <itemPath>TestThread.cpp</itemPath>
+      <itemPath>Thread.cpp</itemPath>
+      <itemPath>Type.cpp</itemPath>
+      <itemPath>application.log</itemPath>
+      <itemPath>config.ini</itemPath>
+      <itemPath>config.properties</itemPath>
+      <itemPath>config.xml</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>../../../../poco-1.6.0-all/lib/Linux/x86_64</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>CppUnit</linkerLibLibItem>
+            <linkerLibLibItem>CppUnitd</linkerLibLibItem>
+            <linkerLibLibItem>PocoCrypto</linkerLibLibItem>
+            <linkerLibLibItem>PocoCryptod</linkerLibLibItem>
+            <linkerLibLibItem>PocoData</linkerLibLibItem>
+            <linkerLibLibItem>PocoDataMySQL</linkerLibLibItem>
+            <linkerLibLibItem>PocoDataMySQLd</linkerLibLibItem>
+            <linkerLibLibItem>PocoDataODBC</linkerLibLibItem>
+            <linkerLibLibItem>PocoDataODBCd</linkerLibLibItem>
+            <linkerLibLibItem>PocoDataSQLite</linkerLibLibItem>
+            <linkerLibLibItem>PocoDataSQLited</linkerLibLibItem>
+            <linkerLibLibItem>PocoDatad</linkerLibLibItem>
+            <linkerLibLibItem>PocoFoundation</linkerLibLibItem>
+            <linkerLibLibItem>PocoFoundationd</linkerLibLibItem>
+            <linkerLibLibItem>PocoJSON</linkerLibLibItem>
+            <linkerLibLibItem>PocoJSONd</linkerLibLibItem>
+            <linkerLibLibItem>PocoMongoDB</linkerLibLibItem>
+            <linkerLibLibItem>PocoMongoDBd</linkerLibLibItem>
+            <linkerLibLibItem>PocoNet</linkerLibLibItem>
+            <linkerLibLibItem>PocoNetSSL</linkerLibLibItem>
+            <linkerLibLibItem>PocoNetSSLd</linkerLibLibItem>
+            <linkerLibLibItem>PocoNetd</linkerLibLibItem>
+            <linkerLibLibItem>PocoUtil</linkerLibLibItem>
+            <linkerLibLibItem>PocoUtild</linkerLibLibItem>
+            <linkerLibLibItem>PocoXML</linkerLibLibItem>
+            <linkerLibLibItem>PocoXMLd</linkerLibLibItem>
+            <linkerLibLibItem>PocoZip</linkerLibLibItem>
+            <linkerLibLibItem>PocoZipd</linkerLibLibItem>
+            <linkerLibLibItem>CppUnit</linkerLibLibItem>
+            <linkerLibLibItem>CppUnitd</linkerLibLibItem>
+            <linkerLibLibItem>PocoCrypto</linkerLibLibItem>
+            <linkerLibLibItem>PocoCryptod</linkerLibLibItem>
+            <linkerLibLibItem>PocoData</linkerLibLibItem>
+            <linkerLibLibItem>PocoDataMySQL</linkerLibLibItem>
+            <linkerLibLibItem>PocoDataMySQLd</linkerLibLibItem>
+            <linkerLibLibItem>PocoDataODBC</linkerLibLibItem>
+            <linkerLibLibItem>PocoDataODBCd</linkerLibLibItem>
+            <linkerLibLibItem>PocoDataSQLite</linkerLibLibItem>
+            <linkerLibLibItem>PocoDataSQLited</linkerLibLibItem>
+            <linkerLibLibItem>PocoDatad</linkerLibLibItem>
+            <linkerLibLibItem>PocoFoundation</linkerLibLibItem>
+            <linkerLibLibItem>PocoFoundationd</linkerLibLibItem>
+            <linkerLibLibItem>PocoJSON</linkerLibLibItem>
+            <linkerLibLibItem>PocoJSONd</linkerLibLibItem>
+            <linkerLibLibItem>PocoMongoDB</linkerLibLibItem>
+            <linkerLibLibItem>PocoMongoDBd</linkerLibLibItem>
+            <linkerLibLibItem>PocoNet</linkerLibLibItem>
+            <linkerLibLibItem>PocoNetSSL</linkerLibLibItem>
+            <linkerLibLibItem>PocoNetSSLd</linkerLibLibItem>
+            <linkerLibLibItem>PocoNetd</linkerLibLibItem>
+            <linkerLibLibItem>PocoUtil</linkerLibLibItem>
+            <linkerLibLibItem>PocoUtild</linkerLibLibItem>
+            <linkerLibLibItem>PocoXML</linkerLibLibItem>
+            <linkerLibLibItem>PocoXMLd</linkerLibLibItem>
+            <linkerLibLibItem>PocoZip</linkerLibLibItem>
+            <linkerLibLibItem>PocoZipd</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Application.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Cache.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Conﬁguration.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DateAndTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Logging.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LoggingConfig.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Memory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Mysql.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Notiﬁcation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Platform.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Process.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Random.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Server.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="String.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TestLibrary.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TestThread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Thread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Type.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="application.log" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.ini" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.properties" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.xml" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Application.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Cache.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Conﬁguration.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DateAndTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Logging.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LoggingConfig.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Memory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Mysql.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Notiﬁcation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Platform.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Process.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Random.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Server.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="String.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TestLibrary.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TestThread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Thread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Type.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="application.log" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.ini" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.properties" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.xml" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

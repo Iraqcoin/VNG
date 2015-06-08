@@ -1,0 +1,40 @@
+//N = 10 ; số Thread;
+//n = 1000 ; số request của 1 Thread;
+// CÓ sử dụng CSDL Quan hệ MYSQL.Ngôn ngữ Java.
+A.Function Get : Lấy User từ CSDL.
+	1.TSimpleServer :
+		+ run lần đầu : ~ 230 request/s.
+		+ run lần sau : ~ 279 request/s.
+	2.TNonblockingServer : 
+		+ run lần đầu : ~ 239 request/s.
+		+ run lần sau : ~ 286 request/s.
+	3.THsHaServer : 
+		+ run lần đầu : ~ 480 request/s.
+		+ run lần sau : ~ 668 request/s.
+	4.TThreadedSelectorServer : 
+		+ run lần đầu : ~ 489 request/s.
+		+ run lần sau : ~ 629 request/s.
+	5.TThreadPoolServer : 
+		+ run lần đầu : ~ 532 request/s.
+		+ run lần sau : ~ 713 request/s.
+=====================================================================
+B.Function PUT : Lấy User từ CSDL tăng visitor lên 1 và update xuống CSDL.
+	1.TSimpleServer :
+		+ run lần đầu : ~ 17 request/s.
+		+ run lần sau : ~ 17 request/s.
+	2.TNonblockingServer : 
+		+ run lần đầu : ~ 17 request/s.
+		+ run lần sau : ~ 17 request/s.
+	3.THsHaServer : 
+		+ run lần đầu : ~ 49 request/s.
+		+ run lần sau : ~ 49 request/s.
+	4.TThreadedSelectorServer : 
+		+ run lần đầu : ~ 50 request/s.
+		+ run lần sau : ~ 50 request/s.
+	5.TThreadPoolServer : 
+		+ run lần đầu : ~ 98 request/s.
+		+ run lần sau : ~ 98 request/s.
+
+File code benmark : DemoThriftClient/src/java/demo/benmark/Main.java		
+==================================================================
+

@@ -1,0 +1,47 @@
+16:20:43 :  : [Information] : Command line:
+16:20:43 :  : [Information] : D:\POCO\Debug\POCO.exe 
+16:20:43 :  : [Information] : Arguments to main():
+16:20:43 :  : [Information] : Application properties:
+16:20:43 :  : [Information] : application.argc = 1
+16:20:43 :  : [Information] : application.argv[0] = D:\POCO\Debug\POCO.exe
+16:20:43 :  : [Information] : application.baseName = POCO
+16:20:43 :  : [Information] : application.configDir = D:\POCO\Debug\
+16:20:43 :  : [Information] : application.dir = D:\POCO\Debug\
+16:20:43 :  : [Information] : application.name = POCO.exe
+16:20:43 :  : [Information] : application.path = D:\POCO\Debug\POCO.exe
+16:20:43 :  : [Information] : logging.channels.cScreen.class = ColorConsoleChannel
+16:20:43 :  : [Information] : logging.channels.cScreen.formatter.class = PatternFormatter
+16:20:43 :  : [Information] : logging.channels.cScreen.formatter.pattern = %H:%M:%S : %T : [%p] : %t
+16:20:43 :  : [Information] : logging.channels.cScreen.traceColor = lightBlue
+16:20:43 :  : [Information] : logging.channels.cScreen.debugColor = blue
+16:20:43 :  : [Information] : logging.channels.cScreen.informationColor = white
+16:20:43 :  : [Information] : logging.channels.cScreen.noticeColor = green
+16:20:43 :  : [Information] : logging.channels.cScreen.warningColor = yellow
+16:20:43 :  : [Information] : logging.channels.cScreen.errorColor = red
+16:20:43 :  : [Information] : logging.channels.cScreen.criticalColor = lightMagenta
+16:20:43 :  : [Information] : logging.channels.cScreen.fatalColor = lightMagenta
+16:20:43 :  : [Information] : logging.channels.cFile.class = FileChannel
+16:20:43 :  : [Information] : logging.channels.cFile.path = application.log
+16:20:43 :  : [Information] : logging.channels.cFile.rotation = 1 M
+16:20:43 :  : [Information] : logging.channels.cFile.archive = number
+16:20:43 :  : [Information] : logging.channels.cFile.purgeCount = 5
+16:20:43 :  : [Information] : logging.channels.cFile.formatter.class = PatternFormatter
+16:20:43 :  : [Information] : logging.channels.cFile.formatter.pattern = %H:%M:%S : %T : [%p] : %t
+16:20:43 :  : [Information] : logging.loggers.root.name = 
+16:20:43 :  : [Information] : logging.loggers.root.channel = cFile
+16:20:43 :  : [Information] : logging.loggers.root.level = trace
+16:20:43 :  : [Information] : logging.loggers.main.name = main
+16:20:43 :  : [Information] : logging.loggers.main.channel = cScreen
+16:20:43 :  : [Information] : logging.loggers.main.level = trace
+16:20:43 :  : [Information] : system.osName = Windows NT
+16:20:43 :  : [Information] : system.osVersion = 6.1 (Build 7601: Service Pack 1)
+16:20:43 :  : [Information] : system.osArchitecture = IA32
+16:20:43 :  : [Information] : system.nodeName = HOAIBAO-PC
+16:20:43 :  : [Information] : system.nodeId = 0025221305e2
+16:20:43 :  : [Information] : system.currentDir = D:\POCO\POCO\
+16:20:43 :  : [Information] : system.homeDir = C:\Users\HoaiBao\
+16:20:43 :  : [Information] : system.tempDir = C:\Users\HoaiBao\AppData\Local\Temp\
+16:20:43 :  : [Information] : system.dateTime = 2015-06-02T16:20:43Z
+16:20:43 :  : [Information] : system.pid = 4940
+16:20:43 :  : [Information] : dsdddddddddddddddddddddddddddd
+16:20:43 :  : [Debug] : Uninitializing subsystem: Logging Subsystem

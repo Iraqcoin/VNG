@@ -1,0 +1,47 @@
+01:29:19 :  : [Information] : Command line:
+01:29:19 :  : [Information] : /home/hoaibao/Desktop/HomNay/Demo3/PC/dist/Debug/GNU-Linux-x86/pc 
+01:29:19 :  : [Information] : Arguments to main():
+01:29:19 :  : [Information] : Application properties:
+01:29:19 :  : [Information] : application.argc = 1
+01:29:19 :  : [Information] : application.argv[0] = /home/hoaibao/Desktop/HomNay/Demo3/PC/dist/Debug/GNU-Linux-x86/pc
+01:29:19 :  : [Information] : application.baseName = pc
+01:29:19 :  : [Information] : application.configDir = /home/hoaibao/Desktop/HomNay/Demo3/PC/dist/Debug/GNU-Linux-x86/
+01:29:19 :  : [Information] : application.dir = /home/hoaibao/Desktop/HomNay/Demo3/PC/dist/Debug/GNU-Linux-x86/
+01:29:19 :  : [Information] : application.name = pc
+01:29:19 :  : [Information] : application.path = /home/hoaibao/Desktop/HomNay/Demo3/PC/dist/Debug/GNU-Linux-x86/pc
+01:29:19 :  : [Information] : logging.channels.cScreen.class = ColorConsoleChannel
+01:29:19 :  : [Information] : logging.channels.cScreen.formatter.class = PatternFormatter
+01:29:19 :  : [Information] : logging.channels.cScreen.formatter.pattern = %H:%M:%S : %T : [%p] : %t
+01:29:19 :  : [Information] : logging.channels.cScreen.traceColor = lightBlue
+01:29:19 :  : [Information] : logging.channels.cScreen.debugColor = blue
+01:29:19 :  : [Information] : logging.channels.cScreen.informationColor = white
+01:29:19 :  : [Information] : logging.channels.cScreen.noticeColor = green
+01:29:19 :  : [Information] : logging.channels.cScreen.warningColor = yellow
+01:29:19 :  : [Information] : logging.channels.cScreen.errorColor = red
+01:29:19 :  : [Information] : logging.channels.cScreen.criticalColor = lightMagenta
+01:29:19 :  : [Information] : logging.channels.cScreen.fatalColor = lightMagenta
+01:29:19 :  : [Information] : logging.channels.cFile.class = FileChannel
+01:29:19 :  : [Information] : logging.channels.cFile.path = application.log
+01:29:19 :  : [Information] : logging.channels.cFile.rotation = 1 M
+01:29:19 :  : [Information] : logging.channels.cFile.archive = number
+01:29:19 :  : [Information] : logging.channels.cFile.purgeCount = 5
+01:29:19 :  : [Information] : logging.channels.cFile.formatter.class = PatternFormatter
+01:29:19 :  : [Information] : logging.channels.cFile.formatter.pattern = %H:%M:%S : %T : [%p] : %t
+01:29:19 :  : [Information] : logging.loggers.root.name = 
+01:29:19 :  : [Information] : logging.loggers.root.channel = cFile
+01:29:19 :  : [Information] : logging.loggers.root.level = trace
+01:29:19 :  : [Information] : logging.loggers.main.name = main
+01:29:19 :  : [Information] : logging.loggers.main.channel = cScreen
+01:29:19 :  : [Information] : logging.loggers.main.level = trace
+01:29:19 :  : [Information] : system.osName = Linux
+01:29:19 :  : [Information] : system.osVersion = 3.19.0-16-generic
+01:29:19 :  : [Information] : system.osArchitecture = x86_64
+01:29:19 :  : [Information] : system.nodeName = hoaibao-HP-Pro-3130-Microtower-PC
+01:29:19 :  : [Information] : system.nodeId = 6c626d9f52f1
+01:29:19 :  : [Information] : system.currentDir = /home/hoaibao/Desktop/HomNay/Demo3/PC/
+01:29:19 :  : [Information] : system.homeDir = /home/hoaibao/
+01:29:19 :  : [Information] : system.tempDir = /tmp/
+01:29:19 :  : [Information] : system.dateTime = 2015-06-03T01:29:19Z
+01:29:19 :  : [Information] : system.pid = 10516
+01:29:19 :  : [Information] : dsdddddddddddddddddddddddddddd
+01:29:19 :  : [Debug] : Uninitializing subsystem: Logging Subsystem
