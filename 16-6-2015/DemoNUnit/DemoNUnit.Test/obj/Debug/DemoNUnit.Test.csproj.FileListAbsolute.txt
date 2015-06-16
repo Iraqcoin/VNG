@@ -1,0 +1,15 @@
+C:\Demo\DemoNUnit\DemoNUnit.Test\bin\Debug\DemoNUnit.Test.dll
+C:\Demo\DemoNUnit\DemoNUnit.Test\bin\Debug\DemoNUnit.Test.pdb
+C:\Demo\DemoNUnit\DemoNUnit.Test\bin\Debug\DemoNUnit.exe
+C:\Demo\DemoNUnit\DemoNUnit.Test\bin\Debug\Excel.dll
+C:\Demo\DemoNUnit\DemoNUnit.Test\bin\Debug\ExcelDataDrivenTests.dll
+C:\Demo\DemoNUnit\DemoNUnit.Test\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Demo\DemoNUnit\DemoNUnit.Test\bin\Debug\nunit.framework.dll
+C:\Demo\DemoNUnit\DemoNUnit.Test\bin\Debug\DemoNUnit.pdb
+C:\Demo\DemoNUnit\DemoNUnit.Test\bin\Debug\ExcelDataDrivenTests.pdb
+C:\Demo\DemoNUnit\DemoNUnit.Test\obj\Debug\DemoNUnit.Test.csprojResolveAssemblyReference.cache
+C:\Demo\DemoNUnit\DemoNUnit.Test\obj\Debug\DemoNUnit.Test.dll
+C:\Demo\DemoNUnit\DemoNUnit.Test\obj\Debug\DemoNUnit.Test.pdb
+C:\Demo\DemoNUnit\DemoNUnit.Test\bin\Debug\Moq.dll
+C:\Demo\DemoNUnit\DemoNUnit.Test\bin\Debug\Moq.pdb
+C:\Demo\DemoNUnit\DemoNUnit.Test\bin\Debug\Moq.xml

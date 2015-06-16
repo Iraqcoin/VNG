@@ -1,0 +1,5 @@
+c:\Demo\DemoNUnit\DemoNUnit\bin\Debug\DemoNUnit.exe.config
+c:\Demo\DemoNUnit\DemoNUnit\bin\Debug\DemoNUnit.exe
+c:\Demo\DemoNUnit\DemoNUnit\bin\Debug\DemoNUnit.pdb
+c:\Demo\DemoNUnit\DemoNUnit\obj\Debug\DemoNUnit.exe
+c:\Demo\DemoNUnit\DemoNUnit\obj\Debug\DemoNUnit.pdb
