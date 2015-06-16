@@ -37,6 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/Application.o \
 	${OBJECTDIR}/Cache.o \
+	${OBJECTDIR}/CompareSynz.o \
 	${OBJECTDIR}/Conﬁguration.o \
 	${OBJECTDIR}/DateAndTime.o \
 	${OBJECTDIR}/Logging.o \
@@ -70,7 +71,7 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=-L../../../../poco-1.6.0-all/lib/Linux/x86_64 -lCppUnit -lCppUnitd -lPocoCrypto -lPocoCryptod -lPocoData -lPocoDataMySQL -lPocoDataMySQLd -lPocoDataODBC -lPocoDataODBCd -lPocoDataSQLite -lPocoDataSQLited -lPocoDatad -lPocoFoundation -lPocoFoundationd -lPocoJSON -lPocoJSONd -lPocoMongoDB -lPocoMongoDBd -lPocoNet -lPocoNetSSL -lPocoNetSSLd -lPocoNetd -lPocoUtil -lPocoUtild -lPocoXML -lPocoXMLd -lPocoZip -lPocoZipd -lCppUnit -lCppUnitd -lPocoCrypto -lPocoCryptod -lPocoData -lPocoDataMySQL -lPocoDataMySQLd -lPocoDataODBC -lPocoDataODBCd -lPocoDataSQLite -lPocoDataSQLited -lPocoDatad -lPocoFoundation -lPocoFoundationd -lPocoJSON -lPocoJSONd -lPocoMongoDB -lPocoMongoDBd -lPocoNet -lPocoNetSSL -lPocoNetSSLd -lPocoNetd -lPocoUtil -lPocoUtild -lPocoXML -lPocoXMLd -lPocoZip -lPocoZipd
+LDLIBSOPTIONS=-lPocoCrypto -lPocoCryptod -lPocoData -lPocoDataMySQL -lPocoDataMySQLd -lPocoDataODBC -lPocoDataODBCd -lPocoDataSQLite -lPocoDataSQLited -lPocoDatad -lPocoFoundation -lPocoFoundationd -lPocoJSON -lPocoJSONd -lPocoMongoDB -lPocoMongoDBd -lPocoNet -lPocoNetSSL -lPocoNetSSLd -lPocoNetd -lPocoUtil -lPocoUtild -lPocoXML -lPocoXMLd -lPocoZip -lPocoZipd -lPocoData -lPocoDataMySQL -lPocoDataMySQLd -lPocoDataODBC -lPocoDataODBCd -lPocoDataSQLite -lPocoDataSQLited -lPocoDatad -lPocoFoundation -lPocoFoundationd -lPocoJSON -lPocoJSONd -lPocoMongoDB -lPocoMongoDBd -lPocoNet -lPocoNetSSL -lPocoNetSSLd -lPocoNetd -lPocoUtil -lPocoUtild -lPocoXML -lPocoXMLd -lPocoZip -lPocoZipd
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
@@ -89,6 +90,11 @@ ${OBJECTDIR}/Cache.o: Cache.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Cache.o Cache.cpp
+
+${OBJECTDIR}/CompareSynz.o: CompareSynz.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/CompareSynz.o CompareSynz.cpp
 
 ${OBJECTDIR}/Conﬁguration.o: Conﬁguration.cpp 
 	${MKDIR} -p ${OBJECTDIR}

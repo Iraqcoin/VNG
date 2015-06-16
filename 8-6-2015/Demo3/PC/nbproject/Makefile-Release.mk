@@ -37,6 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/Application.o \
 	${OBJECTDIR}/Cache.o \
+	${OBJECTDIR}/CompareSynz.o \
 	${OBJECTDIR}/Conﬁguration.o \
 	${OBJECTDIR}/DateAndTime.o \
 	${OBJECTDIR}/Logging.o \
@@ -89,6 +90,11 @@ ${OBJECTDIR}/Cache.o: Cache.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Cache.o Cache.cpp
+
+${OBJECTDIR}/CompareSynz.o: CompareSynz.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/CompareSynz.o CompareSynz.cpp
 
 ${OBJECTDIR}/Conﬁguration.o: Conﬁguration.cpp 
 	${MKDIR} -p ${OBJECTDIR}
