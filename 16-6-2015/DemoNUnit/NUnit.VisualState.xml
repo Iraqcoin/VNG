@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\Demo\DemoNUnit\NUnit.nunit</TopNode>
+  <SelectedNode>[0-1000]C:\Demo\DemoNUnit\NUnit.nunit</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Demo\DemoNUnit\NUnit.nunit" Expanded="true" />
+    <Node UniqueName="[0-1057]C:\Demo\DemoNUnit\DemoNUnit.Test\bin\Debug\DemoNUnit.Test.exe" Expanded="true" />
+    <Node UniqueName="[0-1058]DemoNUnit" Expanded="true" />
+    <Node UniqueName="[0-1059]DemoNUnit.Test" Expanded="true" />
+    <Node UniqueName="[0-1034]DemoNUnit.Test.MayTinhTest" Expanded="true" />
+    <Node UniqueName="[0-1038]DemoNUnit.Test.MayTinhTest.KiemTraChiaTuFileExcel" Expanded="true" />
+  </Nodes>
+</VisualState>

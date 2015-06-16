@@ -40,8 +40,8 @@ public class DemoThriftServer {
             UserHandler calc = new UserHandler();
             UserService.Processor processor = new UserService.Processor(calc);
            //TSimpleServer_Benmark(processor);
-            TThreadPoolServer_Benmark(processor);
-           //TNonblockingServer_Benmark(processor);
+            //TThreadPoolServer_Benmark(processor);
+           TNonblockingServer_Benmark(processor);
             //THsHaServer_Benmark(processor);
             //TThreadedSelectorServer_Benmark(processor);
         } catch (TTransportException e) {

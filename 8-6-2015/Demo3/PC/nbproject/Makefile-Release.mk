@@ -40,6 +40,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/CompareSynz.o \
 	${OBJECTDIR}/Conﬁguration.o \
 	${OBJECTDIR}/DateAndTime.o \
+	${OBJECTDIR}/ExceptionTest.o \
 	${OBJECTDIR}/Logging.o \
 	${OBJECTDIR}/LoggingConfig.o \
 	${OBJECTDIR}/Memory.o \
@@ -105,6 +106,11 @@ ${OBJECTDIR}/DateAndTime.o: DateAndTime.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/DateAndTime.o DateAndTime.cpp
+
+${OBJECTDIR}/ExceptionTest.o: ExceptionTest.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ExceptionTest.o ExceptionTest.cpp
 
 ${OBJECTDIR}/Logging.o: Logging.cpp 
 	${MKDIR} -p ${OBJECTDIR}

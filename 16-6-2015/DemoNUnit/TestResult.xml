@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Demo\DemoNUnit\NUnit.nunit" total="5" errors="0" failures="4" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-04-16" time="10:15:36">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="c:\Demo\DemoNUnit" machine-name="TTBHANH-01" user="ttbhanh" user-domain="ttbhanh-01" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\Demo\DemoNUnit\NUnit.nunit" executed="True" result="Failure" success="False" time="0.351" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Demo\DemoNUnit\DemoNUnit.Test\bin\Debug\DemoNUnit.Test.exe" executed="True" result="Failure" success="False" time="0.331" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="DemoNUnit" executed="True" result="Failure" success="False" time="0.330" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Test" executed="True" result="Failure" success="False" time="0.330" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="TamGiacTest" executed="True" result="Failure" success="False" time="0.327" asserts="0">
+                    <results>
+                      <test-suite type="ParameterizedTest" name="PhanLoaiTamGiacTestFromExcel" executed="True" result="Failure" success="False" time="0.316" asserts="0">
+                        <results>
+                          <test-case name="DemoNUnit.Test.TamGiacTest.TC1(Kiem tra tam giac can tai canh 1 va 2)" executed="True" result="Success" success="True" time="0.078" asserts="1">
+                            <categories>
+                              <category name="TamGiacTestFromExcel" />
+                            </categories>
+                          </test-case>
+                          <test-case name="DemoNUnit.Test.TamGiacTest.TC2(Kiem tra tam giac deu)" executed="True" result="Failure" success="False" time="0.022" asserts="1">
+                            <categories>
+                              <category name="TamGiacTestFromExcel" />
+                            </categories>
+                            <failure>
+                              <message><![CDATA[  Expected: Deu
+  But was:  Can
+]]></message>
+                              <stack-trace><![CDATA[at DemoNUnit.Test.TamGiacTest.PhanLoaiTamGiacTestFromExcel(IDictionary`2 testData) in c:\Demo\DemoNUnit\DemoNUnit.Test\TamGiacTest.cs:line 54
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                          <test-case name="DemoNUnit.Test.TamGiacTest.TC3(Kiem tra tam giac vuong tai canh 2 va canh 3)" executed="True" result="Failure" success="False" time="0.001" asserts="1">
+                            <categories>
+                              <category name="TamGiacTestFromExcel" />
+                            </categories>
+                            <failure>
+                              <message><![CDATA[  Expected: Vuong
+  But was:  KhongPhaiTamGiac
+]]></message>
+                              <stack-trace><![CDATA[at DemoNUnit.Test.TamGiacTest.PhanLoaiTamGiacTestFromExcel(IDictionary`2 testData) in c:\Demo\DemoNUnit\DemoNUnit.Test\TamGiacTest.cs:line 54
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                          <test-case name="DemoNUnit.Test.TamGiacTest.TC4(Kiem tra tam giac thuong)" executed="True" result="Failure" success="False" time="0.001" asserts="1">
+                            <categories>
+                              <category name="TamGiacTestFromExcel" />
+                            </categories>
+                            <failure>
+                              <message><![CDATA[  Expected: Thuong
+  But was:  KhongPhaiTamGiac
+]]></message>
+                              <stack-trace><![CDATA[at DemoNUnit.Test.TamGiacTest.PhanLoaiTamGiacTestFromExcel(IDictionary`2 testData) in c:\Demo\DemoNUnit\DemoNUnit.Test\TamGiacTest.cs:line 54
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                          <test-case name="DemoNUnit.Test.TamGiacTest.TC5(Kiem tra khong phai tam giac khi canh 1 la 0)" executed="True" result="Failure" success="False" time="0.001" asserts="1">
+                            <categories>
+                              <category name="TamGiacTestFromExcel" />
+                            </categories>
+                            <failure>
+                              <message><![CDATA[  Expected: KhongPhaiTamGiac
+  But was:  Vuong
+]]></message>
+                              <stack-trace><![CDATA[at DemoNUnit.Test.TamGiacTest.PhanLoaiTamGiacTestFromExcel(IDictionary`2 testData) in c:\Demo\DemoNUnit\DemoNUnit.Test\TamGiacTest.cs:line 54
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

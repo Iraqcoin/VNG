@@ -40,6 +40,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/CompareSynz.o \
 	${OBJECTDIR}/Conﬁguration.o \
 	${OBJECTDIR}/DateAndTime.o \
+	${OBJECTDIR}/ExceptionTest.o \
 	${OBJECTDIR}/Logging.o \
 	${OBJECTDIR}/LoggingConfig.o \
 	${OBJECTDIR}/Memory.o \
@@ -71,7 +72,11 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
+<<<<<<< HEAD
 LDLIBSOPTIONS=-lPocoCrypto -lPocoCryptod -lPocoData -lPocoDataMySQL -lPocoDataMySQLd -lPocoDataODBC -lPocoDataODBCd -lPocoDataSQLite -lPocoDataSQLited -lPocoDatad -lPocoFoundation -lPocoFoundationd -lPocoJSON -lPocoJSONd -lPocoMongoDB -lPocoMongoDBd -lPocoNet -lPocoNetSSL -lPocoNetSSLd -lPocoNetd -lPocoUtil -lPocoUtild -lPocoXML -lPocoXMLd -lPocoZip -lPocoZipd -lPocoData -lPocoDataMySQL -lPocoDataMySQLd -lPocoDataODBC -lPocoDataODBCd -lPocoDataSQLite -lPocoDataSQLited -lPocoDatad -lPocoFoundation -lPocoFoundationd -lPocoJSON -lPocoJSONd -lPocoMongoDB -lPocoMongoDBd -lPocoNet -lPocoNetSSL -lPocoNetSSLd -lPocoNetd -lPocoUtil -lPocoUtild -lPocoXML -lPocoXMLd -lPocoZip -lPocoZipd
+=======
+LDLIBSOPTIONS=-lPocoData -lPocoDataMySQL -lPocoDataMySQLd -lPocoDataSQLite -lPocoDataSQLited -lPocoDatad -lPocoFoundation -lPocoFoundationd -lPocoUtil -lPocoUtild -lPocoXML -lPocoXMLd -lPocoZip -lPocoZipd -lPocoCrypto -lPocoCryptod -lPocoData -lPocoDataMySQL -lPocoDataMySQLd -lPocoDataODBC -lPocoDataODBCd -lPocoDataSQLite -lPocoDataSQLited -lPocoDatad -lPocoFoundation -lPocoFoundationd -lPocoJSON -lPocoJSONd -lPocoMongoDB -lPocoMongoDBd -lPocoNet -lPocoNetSSL -lPocoNetSSLd -lPocoNetd -lPocoUtil -lPocoUtild -lPocoXML -lPocoXMLd -lPocoZip -lPocoZipd
+>>>>>>> 45410240009775f5a5b6107a4451e4b236c01f8e
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
@@ -105,6 +110,11 @@ ${OBJECTDIR}/DateAndTime.o: DateAndTime.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/DateAndTime.o DateAndTime.cpp
+
+${OBJECTDIR}/ExceptionTest.o: ExceptionTest.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ExceptionTest.o ExceptionTest.cpp
 
 ${OBJECTDIR}/Logging.o: Logging.cpp 
 	${MKDIR} -p ${OBJECTDIR}
